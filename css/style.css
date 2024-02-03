@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-item a{
+    color: white;
+}
+.hero-section{
+    background: url(../images/background/footb-main-banner1.jpg) center;
+    height: 545px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-section .mason{
+    font-size: 50px;
+}
+.bg{
+    margin: 400px 0px 0px 0px;
+    color: white;
+}
+.lionel, .hello,.champions,.la-liga,.champions{
+    color: #970014;
+}
+.time{
+    background-color: #970014;
+    color: white;
+    border: 0px;
+    font-size: 25px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 20px 0px 0px 0px;
+}
+.playground{
+    width: 100%;
+}
+
+.upcoming2{
+    background-color: #000000;
+    background-image: url(../images/background/footb-player1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.round{
+    background-color: #161616;
+}
+.carousel-img1,.carousel-img2,.carousel-img3{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+.carousel-img1{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(../images/background/highlight1.jpg); 
+}
+.carousel-img2{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(../images/background/highlight2.jpg);
+}
+.carousel-img3{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(../images/background/highlight3.jpg);
+}
+.polygon,.photo-img,.round{
+    clip-path: polygon(0 13%, 100% 0%, 100% 100%, 0% 100%);
+}
+.polygon:hover .card-img-overlay{
+    display: none !important;
+}
+.polygon:hover .shop-now{
+    display: block !important;
+}
+.april span{
+    background-color: #970014;
+    color: white;
+    padding: 25px;
+    clip-path: polygon(0 29%, 100% 0, 100% 71%, 0 100%);
+}
+.polygon .card-img-overlay{
+    margin: 60% 0px 0px 0px;
+}
+.plaon-shop,.photo-gallery,.upcoming1{
+    background-color: #000000;
+    color: white;
+}
+.photo-gallery2{
+    background-image: url(../images/background/footb-player2.png);
+    background-color: #000000;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.stay-tuned{
+    background-color: #161616;
+    color: white;
+    height: 400px;
+    background-image: url(../images/background/football2.png), url(../images/background/football1.png);
+    background-repeat: no-repeat;
+    background-position: right top, left bottom;
+}
+.news{
+    background-color: #000000;
+}
+.league-text,.hover-text:hover{
+    color: #970014;
+}
+.footer{
+    background-color: #000000;
+} 
+
+@media only screen and (min-width:768px){
+    .hero-section .mason{
+        font-size: 150px;
+    }
+    .polygon .card-img-overlay{
+        margin: 85% 0px 0px 0px;
+    }
+    .carousel-caption{
+        margin: 0px 0px 190px 0px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .playground{
+        height: 300px;
+    }
+    .polygon .card-img-overlay{
+        margin: 30% 0px 0px 0px;
+    }
+}
+@media only screen and (min-width:1440px){
+    .polygon .card-img-overlay{
+        margin: 80% 0px 0px 0px;
+    }
+}
